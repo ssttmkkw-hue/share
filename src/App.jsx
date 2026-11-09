@@ -41,7 +41,10 @@ export default function App() {
         </div>
       </section>
 
-      <footer className="footer">© {new Date().getFullYear()} 我的个人页 · 用 Vite + React 构建</footer>
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} 我的个人页 · 用 Vite + React 构建</p>
+        <p>本次修改由 ChatGPT Codex 完成 ✨</p>
+      </footer>
     </main>
   )
 }

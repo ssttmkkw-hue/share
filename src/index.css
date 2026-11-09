@@ -83,3 +83,4 @@ body {
 .btn.ghost { background: #fff; color: #6366f1; box-shadow: 0 0 0 2px #c7d2fe inset; }
 
 .footer { text-align: center; font-size: 14px; color: #8186a5; }
+.footer p + p { margin-top: 8px; }
